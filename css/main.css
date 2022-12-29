@@ -64,6 +64,12 @@ span {
   color: var(--primary-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   padding-top: 62px;
   padding-bottom: 62px;
