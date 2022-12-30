@@ -1,17 +1,26 @@
 .hero {
 	padding-bottom: 80px;
 }
+.flex {
+	display: flex;
+}
 .hero__content {
 	flex: 0 1 50%;
 	align-self: flex-end;
-	padding-top: 80px;
+	padding-top: 120px;
 	padding-bottom: 60px;
 	padding-right: 20px;
 
-	// @media screen and (max-width: 1090px) {
-	// 	flex: 0 0 60%;
-	// 	padding-bottom: 0;
-	// }
+	@media screen and (max-width: 1100px) {
+		flex: 0 1 60%;
+		padding-bottom: 0;
+	}
+
+	@media screen and (max-width: 767.98px) {
+		flex: 1 1 100%;
+		padding-right: 0;
+		text-align: center;
+	}
 }
 .hero__title {
 	margin-bottom: 16px;
@@ -21,12 +30,21 @@
 	font-size: 56px;
 	line-height: 1.19; /* 67/56 */
 	color: var(--second-text-color);
+
+	@media screen and (max-width: 1100px) {
+		font-size: 46px;
+	}
 }
 .hero__text {
 	max-width: 420px;
 	margin-bottom: 33px;
 	font-weight: 500;
 	line-height: 1.5; /* 24/16 */
+
+	@media screen and (max-width: 767.98px) {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 .hero__link {
 	display: inline-block;
@@ -52,6 +70,13 @@
 .hero__actions {
 	display: flex;
 	align-items: center;
+
+	@media screen and (max-width: 767.98px) {
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 479.98px) {
+	}
 }
 .hero__first-icon {
 	margin-right: 28px;
@@ -59,13 +84,17 @@
 .hero__decor {
 	flex: 0 1 50%;
 
-	// @media screen and (max-width: 1090px) {
-	// 	width: 100%;
-	// }
+	@media screen and (max-width: 1100px) {
+		flex: 0 1 40%;
+	}
+
+	@media screen and (max-width: 767.98px) {
+		display: none;
+	}
 }
 .hero__img {
 	position: relative;
-	margin-right: -125px;
+	margin-right: -135px;
 	max-width: 672px;
 
 	&::after {
