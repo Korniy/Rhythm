@@ -34,6 +34,11 @@
 	@media screen and (max-width: 1100px) {
 		font-size: 46px;
 	}
+
+	@media screen and (max-width: 767.98px) {
+		margin-bottom: 33px;
+		font-size: 34px;
+	}
 }
 .hero__text {
 	max-width: 420px;
@@ -66,6 +71,11 @@
 	&:focus {
 		background-color: #d84c14;
 	}
+
+	@media screen and (max-width: 767.98px) {
+		padding: 15px 40px;
+		margin-right: 20px;
+	}
 }
 .hero__actions {
 	display: flex;
@@ -73,9 +83,6 @@
 
 	@media screen and (max-width: 767.98px) {
 		justify-content: center;
-	}
-
-	@media screen and (max-width: 479.98px) {
 	}
 }
 .hero__first-icon {

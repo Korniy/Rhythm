@@ -39,10 +39,26 @@
 						</svg>
 						Rhythm
 					</a>
-					<!-- Burger menu -->
-					<div class="mobile-overlay">
-						<div class="mobile-menu">
-							<nav class="header__nav">
+					<!-- NAV -->
+					<nav class="header__nav">
+						<!-- Button menu -->
+
+						<button class="burger__button" type="button" data-menu-button>
+							<svg width="40" height="40">
+								<use
+									class="icon-menu"
+									href="images/icons/symbol-defs.svg#icon-menu"
+								></use>
+								<use
+									class="icon-close"
+									href="images/icons/symbol-defs.svg#icon-close"
+								></use>
+							</svg>
+						</button>
+						<!-- Burger menu -->
+
+						<div class="burger__overlay" data-menu>
+							<div class="burger__menu">
 								<ul class="header__list">
 									<li class="header__item">
 										<a href="#" class="header__link">Store</a>
@@ -54,21 +70,9 @@
 										<a href="#" class="header__link">Support</a>
 									</li>
 								</ul>
-								<button class="header__button" type="button">
-									<svg width="40" height="40">
-										<use
-											class="icon-menu"
-											href="images/icons/symbol-defs.svg#icon-menu"
-										></use>
-										<use
-											class="icon-close"
-											href="images/icons/symbol-defs.svg#icon-close"
-										></use>
-									</svg>
-								</button>
-							</nav>
+							</div>
 						</div>
-					</div>
+					</nav>
 				</div>
 			</header>
 
@@ -117,6 +121,7 @@
 			<footer class="footer">
 				<div class="container"></div>
 			</footer>
+			<script src="./js/burger.js"></script>
 		</div>
 	</body>
 </html>
