@@ -43,8 +43,13 @@
 					<nav class="header__nav">
 						<!-- Button menu -->
 
-						<button class="burger__button" type="button" data-menu-button>
-							<svg width="40" height="40">
+						<button
+							class="burger__button"
+							type="button"
+							aria-controls="burger__overlay"
+							data-menu-button
+						>
+							<svg width="40" height="40" aria-label="Перемикач мобільного меню">
 								<use
 									class="icon-menu"
 									href="images/icons/symbol-defs.svg#icon-menu"
@@ -57,7 +62,7 @@
 						</button>
 						<!-- Burger menu -->
 
-						<div class="burger__overlay" data-menu>
+						<div class="burger__overlay" id="burger__overlay" data-menu>
 							<div class="burger__menu">
 								<ul class="header__list">
 									<li class="header__item">
@@ -128,7 +133,7 @@
 									<img
 										srcset="./images/guitar.jpg 1x, ./images/guitar@2x.jpg 2x"
 										src="./images/guitar.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -140,7 +145,7 @@
 									<img
 										srcset="./images/guitar2.jpg 1x, ./images/guitar2@2x.jpg 2x"
 										src="./images/guitar2.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -152,7 +157,7 @@
 									<img
 										srcset="./images/guitar3.jpg 1x, ./images/guitar3@2x.jpg 2x"
 										src="./images/guitar3.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -172,7 +177,7 @@
 									<img
 										srcset="./images/guitar4.jpg 1x, ./images/guitar4@2x.jpg 2x"
 										src="./images/guitar4.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -184,7 +189,7 @@
 									<img
 										srcset="./images/guitar5.jpg 1x, ./images/guitar5@2x.jpg 2x"
 										src="./images/guitar5.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -196,7 +201,7 @@
 									<img
 										srcset="./images/guitar6.jpg 1x, ./images/guitar6@2x.jpg 2x"
 										src="./images/guitar6.jpg"
-										alt=""
+										alt="guitar"
 										class="image"
 									/>
 								</a>
@@ -206,7 +211,73 @@
 						</ul>
 					</div>
 				</section>
-				<section><div class="container"></div></section>
+
+				<!-- CATEGORIES -->
+
+				<section class="categories">
+					<div class="container">
+						<h2 class="categories__title">Choose based on <span>Categories</span></h2>
+						<ul class="categories__list">
+							<li class="categories__item">
+								<a href="#" class="categories__link">
+									<img
+										class="categories__img"
+										srcset="
+											./images/Rectangle.jpg    1x,
+											./images/Rectangle@2x.jpg 2x
+										"
+										src="./images/Rectangle.jpg"
+										alt="guitar"
+									/>
+									<p class="categories__text">Acoustic</p>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link">
+									<img
+										class="categories__img"
+										srcset="
+											./images/Rectangle2.jpg    1x,
+											./images/Rectangle2@2x.jpg 2x
+										"
+										src="./images/Rectangle2.jpg"
+										alt="guitar"
+									/>
+									<p class="categories__text">Electric</p>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link">
+									<img
+										class="categories__img"
+										srcset="
+											./images/Rectangle3.jpg    1x,
+											./images/Rectangle3@2x.jpg 2x
+										"
+										src="./images/Rectangle3.jpg"
+										alt="guitar"
+									/>
+									<p class="categories__text">Basses</p>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link">
+									<img
+										class="categories__img"
+										srcset="
+											./images/Rectangle4.jpg    1x,
+											./images/Rectangle4@2x.jpg 2x
+										"
+										src="./images/Rectangle4.jpg"
+										alt="guitar"
+									/>
+									<p class="categories__text">Collections</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+
 				<section><div class="container"></div></section>
 				<section><div class="container"></div></section>
 				<section><div class="container"></div></section>
