@@ -16,32 +16,17 @@
 .categories__list {
 	display: flex;
 	justify-content: center;
-
-	// @media screen and (max-width: 1100px) {
-	// 	flex-wrap: wrap;
-	// 	margin: -15px;
-	// }
 }
 .categories__item {
+	position: relative;
+
 	&:not(:last-child) {
 		margin-right: 69px;
 	}
-
-	// @media screen and (max-width: 1100px) {
-	// 	&:not(:last-child) {
-	// 		margin-right: 0px;
-	// 	}
-
-	// 	margin: 15px;
-	// 	flex-basis: calc((100% - 4 * 15px) / 2);
-	// }
 }
-.categories__link {
-	position: relative;
-}
+// .categories__link {
+// }
 .categories__img {
-	box-shadow: 0px 13px 19px rgb(0 0 0 / 7%), 0px 13px 19px rgb(0 0 0 / 7%),
-		0px 13px 19px rgb(0 0 0 / 7%), 0px 13px 19px rgb(0 0 0 / 7%);
 	border-radius: 20px;
 }
 .categories__text {
