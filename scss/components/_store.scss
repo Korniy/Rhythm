@@ -64,6 +64,7 @@
 		&:not(:last-child) {
 			margin-right: 0px;
 		}
+
 		margin: 15px;
 		flex-basis: calc((100% - 4 * 15px) / 2);
 	}

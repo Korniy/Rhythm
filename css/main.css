@@ -602,7 +602,7 @@ img {
         flex-basis: calc((100% - 4 * 15px) / 2);
   }
   .categories__item:not(:last-child) {
-    margin-right: 0;
+    margin-right: 0px;
   }
 }
 
