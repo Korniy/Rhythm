@@ -877,4 +877,112 @@ img {
   text-align: center;
   text-transform: capitalize;
 }
+
+.reviews {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .reviews {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.reviews__title {
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: var(--second-font);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.2;
+  /* 53/44 */
+  color: var(--second-text-color);
+}
+
+@media screen and (max-width: 991.98px) {
+  .reviews__title {
+    margin-bottom: 75px;
+  }
+}
+
+.reviews__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .reviews__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.reviews__authors {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .reviews__authors {
+    margin-bottom: 30px;
+  }
+}
+
+.reviews__content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.reviews__text {
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.reviews__subtitle {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.6;
+  color: var(--second-text-color);
+}
+
+.reviews__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews__desc {
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+}
+
+.reviews__icon:not(:last-child) {
+  margin-right: 12px;
+}
 /*# sourceMappingURL=main.css.map */
