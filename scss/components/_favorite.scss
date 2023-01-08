@@ -1,0 +1,36 @@
+.favorite {
+}
+.favorite__wrapper {
+	display: flex;
+	align-items: center;
+
+	@media screen and (max-width: 991.98px) {
+		flex-direction: column;
+	}
+}
+
+.favorite__content {
+	flex: 0 1 50%;
+}
+.favorite__title {
+	margin-bottom: 60px;
+
+	font-family: var(--second-font);
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 1.4;
+	color: var(--second-text-color);
+}
+.favorite__inner {
+	display: flex;
+
+	@media screen and (max-width: 991.98px) {
+		justify-content: center;
+	}
+}
+.favorite__google {
+	margin-right: 25px;
+}
+.favorite__image {
+	flex: 0 1 50%;
+}

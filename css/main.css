@@ -985,4 +985,61 @@ img {
 .reviews__icon:not(:last-child) {
   margin-right: 12px;
 }
+
+.favorite__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .favorite__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.favorite__content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.favorite__title {
+  margin-bottom: 60px;
+  font-family: var(--second-font);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.4;
+  color: var(--second-text-color);
+}
+
+.favorite__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 991.98px) {
+  .favorite__inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.favorite__google {
+  margin-right: 25px;
+}
+
+.favorite__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
 /*# sourceMappingURL=main.css.map */
