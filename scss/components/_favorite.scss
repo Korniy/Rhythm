@@ -1,4 +1,9 @@
 .favorite {
+	padding-bottom: 100px;
+
+	@media screen and (max-width: 479.98px) {
+		padding-bottom: 80px;
+	}
 }
 .favorite__wrapper {
 	display: flex;
@@ -17,7 +22,7 @@
 
 	font-family: var(--second-font);
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 44px;
 	line-height: 1.4;
 	color: var(--second-text-color);
 }
@@ -27,9 +32,21 @@
 	@media screen and (max-width: 991.98px) {
 		justify-content: center;
 	}
+
+	@media screen and (max-width: 479.98px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 .favorite__google {
-	margin-right: 25px;
+	margin-right: 20px;
+
+	@media screen and (max-width: 479.98px) {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+.favorite__apple {
 }
 .favorite__image {
 	flex: 0 1 50%;
