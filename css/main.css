@@ -1077,4 +1077,137 @@ img {
   padding-bottom: 80px;
   background-color: #eeeeee;
 }
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+  /* 48/40 */
+  color: var(--second-text-color);
+}
+
+.footer__svg {
+  margin-right: 24px;
+}
+
+.footer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__svg:hover {
+  fill: currentColor;
+}
+
+.footer__link {
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer__link:hover, .footer__link:focus {
+  color: var(--primary-color);
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-list__item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  /* 27/18 */
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.menu-list__item:not(:last-child) {
+  margin-right: 125px;
+}
+
+.menu-list__submenu {
+  margin-top: 20px;
+}
+
+.menu-list__subitem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* 24/16 */
+  text-transform: none;
+  color: var(--text-color);
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-list__subitem:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.menu-list__subitem:hover, .menu-list__subitem:focus {
+  color: var(--primary-color);
+}
+
+.socials__text {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  /* 27/18 */
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.svg {
+  fill: var(--text-color);
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+
+.svg:hover, .svg:focus {
+  fill: var(--primary-color);
+}
 /*# sourceMappingURL=main.css.map */
